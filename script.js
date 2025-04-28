@@ -9,3 +9,4 @@ fetch('http://api.weatherapi.com/v1/current.json?key=%202160dd8f47b84474a6c12151
     document.getElementById('condition').innerText = weather.condition.text;
     document.getElementById('icon').src = weather.condition.icon;
   })
+ 
